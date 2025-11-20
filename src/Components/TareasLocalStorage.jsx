@@ -24,12 +24,10 @@ function TareasLocalStorage() {
     );
   };
 
-  // Eliminar tareas completadas
   const limpiarCompletadas = () => {
     setTareas(tareas.filter((t) => !t.completada));
   };
 
-  // Guardar tareas en localStorage
   React.useEffect(() => {
     localStorage.setItem("tareas", JSON.stringify(tareas));
   }, [tareas]);

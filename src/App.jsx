@@ -1,31 +1,52 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import CambiarColorFondo from "./Components/CambiarColorFondo.jsx";
-import ContadorDeClicks from "./Components/ContadorDeClicks.jsx";
-import ListaDinamica from "./Components/ListaDinamica.jsx";
-import Busqueda from "./Components/Busqueda.jsx";
-import Calculadora from "./Components/Calculadora.jsx";
-import Temporizador from "./Components/Temporizador.jsx";
-import Generador from "./Components/Generador.jsx";
-import ContadorPalabras from "./Components/ContadorPalabras.jsx";
-import TareasLocalStorage from "./Components/TareasLocalStorage.jsx";
+
 function App() {
   return (
-    <>
-      <div>
-        <CambiarColorFondo />
-        <ContadorDeClicks />
-        <ListaDinamica />
-        <Busqueda />
-        <Calculadora />
-        <Temporizador />
-        <Generador />
-        <ContadorPalabras />
-        <TareasLocalStorage />
-      </div>
-    </>
+    <div>
+      <h1>Índice de Ejercicios de React.js</h1>
+      <p>
+        Haz clic en el enlace para abrir cada ejercicio en su archivo HTML
+        independiente.
+      </p>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="/ejercicio-calculadora.html">1. Calculadora</a>
+          </li>
+          <li>
+            <a href="/ejercicio-contador-clicks.html">2. Contador de Clicks</a>
+          </li>
+          <li>
+            <a href="/ejercicio-contador-palabras.html">
+              3. Contador de Palabras
+            </a>
+          </li>
+          <li>
+            <a href="/ejercicio-cambiar-color-fondo.html">
+              4. Cambiar Color de Fondo
+            </a>
+          </li>
+          <li>
+            <a href="/ejercicio-busqueda.html">5. Búsqueda</a>
+          </li>
+          <li>
+            <a href="/ejercicio-lista-dinamica.html">6. Lista Dinámica</a>
+          </li>
+          <li>
+            <a href="/ejercicio-generador.html">7. Generador</a>
+          </li>
+          <li>
+            <a href="/ejercicio-tareas-localstorage.html">
+              8. Lista de Tareas (LocalStorage)
+            </a>
+          </li>
+          <li>
+            <a href="/ejercicio-temporizador.html">9. Temporizador</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   );
 }
 

@@ -12,6 +12,17 @@ function Busqueda() {
     "mango",
     "piña",
     "cereza",
+    "melón",
+    "sandía",
+    "limón",
+    "coco",
+    "arándano",
+    "frambuesa",
+    "papaya",
+    "guayaba",
+    "durazno",
+    "albaricoque",
+    "ciruela",
   ];
   const [busqueda, setBusqueda] = React.useState("");
 
@@ -29,7 +40,7 @@ function Busqueda() {
       <input
         type="text"
         value={busqueda}
-        placeholder="Escribe aqui..."
+        placeholder="Una fruta..."
         onChange={handleChange}
       />
       <ul style={{ listStyle: "none", padding: 0 }}>
