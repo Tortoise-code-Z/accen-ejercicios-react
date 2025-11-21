@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Busqueda from "./Components/Busqueda.jsx";
+import Busqueda from "./src/Components/Busqueda.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  React.createElement(React.StrictMode, null, React.createElement(Busqueda))
+    React.createElement(React.StrictMode, null, React.createElement(Busqueda))
 );
