@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import CambiarColorFondo from "../src/Components/CambiarColorFondo.jsx";
+import CambiarColorFondo from "./src/Components/CambiarColorFondo.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
